@@ -22,18 +22,21 @@
 
 ### Instructions
 
-1. Throughout the course, you will experience uncertainty and a severe lack of information — this is normal. Remember that the repository and Google are always available to you, as are your peers and Rocket.Chat. Communicate. Search. Rely on common sense. Do not be afraid of making mistakes.
-1. Pay attention to sources of information. Verify, think, analyze, compare.
-1. Read the assignments carefully. Reread them several times.
-1. It's best to read the examples carefully as well. They may contain something not explicitly stated in the assignment itself.
-1. You might encounter inconsistencies when something new in the task or example contradicts what you already know. If that happens, try to figure it out. If you fail, make a note under “open questions” and resolve it during your work. Do not leave open questions unresolved.
-1. If a task seems unclear or unachievable, it only seems that way. Try decomposing it. Most likely, individual parts will become clearer.
-1. Along the way, you'll encounter many different tasks. Those marked with an asterisk (\*) are for more meticulous learners. They are of higher complexity and are not mandatory, but if you do them, you'll gain additional experience and knowledge.
-1. Do not try to fool the system or those around you. You'll only be fooling yourself.
-1. Have a question? Ask the neighbor on your right. If that doesn't help, ask the neighbor on your left.
-1. When using someone's help, always make sure you understand why, how, and what for. Otherwise, that help is meaningless.
-1. Always push only to the **develop** branch! The **master** branch will be ignored. Work in the **src** directory.
-1. Your directory should not contain any files other than those specified in the tasks.
+How to learn at “School 21”:
+
+- Here, you’ll find a unique learning experience with a lot of freedom. You’re given a task and left to find your own way to solve it, using whatever resources work best for you — whether that’s the Internet or AI tools like GigaChat. Just be mindful of information quality: verify, think critically, analyze, and compare.
+- Peer-to-peer (P2P) learning is the exchange of knowledge and experience with peers, where everyone acts as both mentor and student. This approach allows you to gain a deeper understanding of the material by learning from one another.
+- Feel free to ask for help: around you are peers who are also navigating this path for the first time. Share your own experience and ideas with others.  Join Rocket.Chat to stay updated with the latest community announcements. 
+- Your learning is meaningless if you just copy someone else’s solutions. When receiving help from others, always make sure you fully understand the “why”, “how”, and “purpose” behind the solution. Don’t be afraid to make mistakes. 
+- Does the task seem impossible? Take a break, get some fresh air and clear your mind — this has helped many people. Maybe after that, the solution will come to you naturally.
+- The learning process is just as important as the result. It’s not just about completing the task — it’s about understanding HOW to solve it. 
+
+How to work with the project:
+
+- Before starting, clone the project from GitLab into a repository with the same name.
+- All files should be created inside the _src/_ folder of the cloned repository.
+- After cloning the project, create a _develop_ branch and do all your development there. Then, push the _develop_ branch to GitLab.
+- Your directory should not contain any files other than those specified in the assignments.
 
 ## Chapter II
 
@@ -67,12 +70,18 @@ We will explore the basics of building web applications and using the Spring fra
 
 ### Task 0. Creating the Project
 
-In IntelliJ IDEA, create a new project:
+Create a new Gradle project with the following parameters:
 
-- Select Java as the language.
-- Select Gradle as the build system.
-- Select JDK 18; if you don't have it, download any version of JDK 18.
-- Select Kotlin as the Gradle DSL.
+- Language: Java
+- JDK: 21 LTS (use any installation method available to you)
+- Gradle DSL: Kotlin
+
+Choose any development environment you prefer:
+
+- IntelliJ IDEA (the free edition includes everything required for Java)
+- Other national equivalents of IntelliJ IDEA
+- VS Code + Extension Pack for Java
+
 
 ### Task 1. Creating the Project Structure
 
